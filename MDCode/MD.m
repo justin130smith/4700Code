@@ -32,7 +32,7 @@ nAtoms = 0;
 MarkerSize = 12;
 Limits = [];
 doPlot = 1;
-doPlotImage = 0;
+doPlotImage = 1;
 PlotCount  = 0;
 PlotFile = 'image.gif';
 PlotSize = [100, 100, 1049, 895];
@@ -41,12 +41,13 @@ ScaleF = 0;
 PlotPosOnly = 0;
 
 % Simulation initiallization
-InitThree
+%InitThree
 % InitBlock
-% InitCirc
+ %InitCirc
+ %InitElip
 % InitBlock0
 % InitBlock0FD
-% InitVStream
+ InitVStream
 % InitHCP
 % InitHCPBlob
 % InitVStreamHCP
