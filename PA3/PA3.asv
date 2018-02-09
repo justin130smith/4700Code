@@ -1,0 +1,15 @@
+size = 10
+V = zeros(size, size)
+
+iterations = 100
+loopVar = 0
+rightSide = 0
+leftSide = 1
+while loopVar < iterations
+    
+    for i = 0:-1:iterations
+        
+    V(x,y)
+    loopVar = loopVar +1
+    
+end
