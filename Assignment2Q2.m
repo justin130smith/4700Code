@@ -10,7 +10,7 @@ G = sparse(nx*ny);
 volt = zeros(nx*ny);
 
 s1 = 1 ;
-s2 = (1*10^-2)+z/15;
+s2 = (1*10^-2);
 innerX = nx*0.35;
 outerX = nx*0.6;
 innerY = ny*0.35;
